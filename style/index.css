@@ -404,13 +404,15 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 78px;
+  margin-top: 39px;
 }
 
 footer .button1 {
@@ -420,6 +422,16 @@ footer .button1 {
   background-color: #fff;
   text-align: center;
   line-height: 50px;
+}
+
+footer .upStyle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .mask {

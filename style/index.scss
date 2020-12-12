@@ -35,9 +35,11 @@ button {
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 78px;
+  margin-top: 39px;
+
 
   .button1{
     width: 50px;
@@ -46,6 +48,12 @@ footer {
     background-color: #fff;
     text-align: center;
     line-height: 50px;
+  }
+
+  .upStyle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
